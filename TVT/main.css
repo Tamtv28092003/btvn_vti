@@ -1,0 +1,107 @@
+.container {
+  max-width: 1408px;
+  margin: auto;
+}
+
+.box {
+  max-width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.box__left {
+  background-color: black;
+  max-width: 40%;
+}
+
+.info__profile {
+  padding: 30px;
+}
+
+.info__profile--title {
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  font-size: 17px;
+}
+
+/* ảnh cv */
+.img-cv1 {
+  height: 250px;
+  width: 200px;
+}
+
+.sex {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+iconify-icon {
+  margin-right: 10px;
+}
+
+.technical__skill {
+  padding: 30px;
+  color: white;
+}
+
+.title--skill {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.box__right {
+  color: black;
+  max-width: 50%;
+}
+
+.education {
+  padding: 10px;
+  /* color: white; */
+}
+
+.education-title {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.school {
+  padding-top: 10px;
+}
+
+.projects {
+  padding: 10px;
+}
+
+.link--project {
+  text-decoration: none;
+  /* color: white; */
+}
+
+.link--project:hover {
+  text-decoration: underline;
+}
+
+.work {
+  /* color: white; */
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.projects--desc {
+  /* color: white; */
+}
+
+.info__desc {
+  /* color: white; */
+}

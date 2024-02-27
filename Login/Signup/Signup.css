@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./tai-hinh-nen-dep-nhat-the-gioi-57.jpeg'); /* Thay 'your-image.jpg' bằng đường dẫn của tấm ảnh bạn muốn sử dụng */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Điều này sẽ làm cho form có một lớp mờ trắng để nó dễ đọc hơn trên nền ảnh */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Sử dụng backdrop-filter để làm mờ nền của container */
+}
+
+
+.signup-container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.signup-header {
+    background-color:#b5183f ;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.signup-header h2 {
+    margin: 0;
+}
+
+.signup-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-icon {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.face {
+    text-decoration: none;
+    color: black;
+
+}
+.gg {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
